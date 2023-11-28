@@ -1,0 +1,65 @@
+.girl{
+  margin-top: 20px;
+  margin-bottom:20px;
+  margin-left: 250px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 120px;
+  width: 300px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between ;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 10%;
+  margin-left: 12%;
+ 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  width: 1000px;
+}
+.main img{
+  height: 430px;  
+  width: 500px;
+}
+.cont{
+  margin: auto;
+  background-color: light;
+}
+
+.loginnn{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.text{
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.logicon{
+  color:#0D0E5D;
+   font-size:40px;
+  margin-left: 40%;
+}
+.logtext{
+  margin-left: 30%;
+}
+
+.log {
+  background-color: white;
+ 
+}
+.log:hover{
+  box-shadow: 0 0 0 .15vw #fcbe03;
+}
+.log:focus{
+ box-shadow: 0 0 0 .15vw #fcbe03;
+}

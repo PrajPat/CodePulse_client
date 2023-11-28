@@ -1,0 +1,99 @@
+.reg{
+    width: 90%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    justify-content: space-between;
+
+    
+}
+
+.regcontainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+.imge{
+    margin-top: 100px;
+    margin-bottom:50px;
+    margin-left: 700px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 400px;
+    width: 400px;
+}
+
+
+
+.mainnn{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    width: 550px;
+    background-color:#ffff;
+    border-radius: 20px;
+
+}
+
+.textR{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.regicon{
+  color:#0D0E5D;
+   font-size:40px;
+  margin-left: 40%;
+}
+.regtext{
+    margin-left: 15%;
+}
+
+
+
+
+
+
+
+/* CSS */
+
+
+.regbutton:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.regbutton:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .regbutton {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+
+
+.regi {
+  background-color: white;
+ 
+}
+.regi:hover{
+  box-shadow: 0 0 0 .15vw #fcbe03;
+}
+.regi:focus{
+ box-shadow: 0 0 0 .15vw #fcbe03;
+}
